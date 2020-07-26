@@ -1,6 +1,6 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid = "SSID";//type your ssid
+const char* ssid = "Lenovo";//type your ssid
 const char* password = "PASSWORD";//type your password
 
 int ledPin = 2; // GPIO2 of ESP8266
