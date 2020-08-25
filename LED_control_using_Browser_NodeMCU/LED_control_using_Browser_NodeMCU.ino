@@ -2,8 +2,8 @@
 
 #include <ESP8266WiFi.h>
  
-const char* ssid = "Lenovo"; // SSID i.e. Service Set Identifier is the name of your WIFI
-const char* password = "Krisbiswas"; // Your Wifi password, in case you have open network comment the whole statement.
+const char* ssid = "WiFi_SSID"; // SSID i.e. Service Set Identifier is the name of your WIFI
+const char* password = "PASSWORD"; // Your Wifi password, in case you have open network comment the whole statement.
  
 //int ledPin = 13; // GPIO13 or for NodeMCU you can directly write D7 
 WiFiServer server(80); // Creates a server that listens for incoming connections on the specified port, here in this case port is 80.
